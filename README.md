@@ -1,3 +1,15 @@
+# how-to-break-stuff-less
+
+This repository contains code examples for a talk on unit testing with Jest and Enzyme at Agile Midwest 2019.
+
+All code examples and tests are in `src/examples`.  Some examples have a wrapper component to emulate props being passed in from a parent component.
+
+To view the example components in the browser, use `npm start` and then navigate to `http://localhost:3000/{exampleNumber}` to view the example.  In other words, `http://localhost:3000/01` will open the first example in the browser.
+
+To run the tests, use `npm test`.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
